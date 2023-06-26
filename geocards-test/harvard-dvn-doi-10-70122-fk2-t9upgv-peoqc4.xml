@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>O'Neill, Kelly</origin>
+				<pubdate>20230621</pubdate>
+				<title>Russian Empire Playing Cards: Geography of the Provinces (geojson)</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Cambridge, Massachusetts</pubplace>
+					<publish>Harvard University. The Imperiia Project.</publish>
+				</pubinfo>
+				<onlink>https://hgl.harvard.edu/catalog/harvard-dvn-doi-10-70122-fk2-t9upgv-peoqc4</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Geographic boundaries corresponding to the 77 Russian Empire province playing cards, 1857. Part of the Russian Empire geographic playing cards data, 1857. Geospatial data sets derived from a set of geographic data playing cards of the Russian Empire produced by Konstantin Matveevich Gribanov and published in 1857. The cards were digitized as part of the Meeting of Frontiers project by the Library of Congress and Russian National Library. The geospatial data files were produced as part of The Imperiia Project: A Spatial History of the Russian Empire by Kelly O'Neill, Harvard University. This data collection provides source card data in multiple digital formats (shapefile, GeoJSON, csv, and xslx) georeferenced to administrative boundaries sourced from the Geographical Atlas of the Russian Empire (GARE) including province and regional boundaries, rivers, and towns. For more information view the readme files provided with the collection data or visit The Imperiia Project project page: https://imperiia.scalar.fas.harvard.edu/imperiia/the-playing-cards</abstract>
+			<purpose>This dataset for use in GIS software.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1857</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>LCSH</themekt>
+				<themekey>Boundaries</themekey>
+				<themekey>Administrative and political divisions</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Russia</placekey>
+				<placekey>Russian Empire</placekey>
+			</place>
+		</keywords>
+		<accconst>No restrictions on access.</accconst>
+		<useconst>For educational non-commercial use only.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Imperiia Project</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Davis Center for Russian and Eurasian Studies</address>
+					<address>Harvard University</address>
+					<address>1730 Cambridge Street, 3rd Floor</address>
+					<city>Cambridge</city>
+					<state>MA</state>
+					<postal>02138</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>617-495-4037</cntvoice>
+				<cntemail>daviscenter@fas.harvard.edu</cntemail>
+				<hours>Regular business hours are 9 a.m.–5 p.m. Monday through Friday</hours>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Unknown</attraccr>
+		</attracc>
+		<logic>Unknown</logic>
+		<complete>Unknown</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Unknown</horizpar>
+			</horizpa>
+		</posacc>
+	</dataqual>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Harvard University Information Technology</cntorg>
+				</cntorgp>
+				<cntpos>Harvard Geospatial Library</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Library Technology Services</address>
+					<address>90 Mount Auburn Street</address>
+					<city>Cambridge</city>
+					<state>MA</state>
+					<postal>02138</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>617-495-2417</cntvoice>
+				<cntfax>617-496-0440</cntfax>
+				<cntemail>hgladmin@fas.harvard.edu</cntemail>
+				<hours>Monday - Friday, 9:00 am - 4:00 pm EST-USA</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Although this data set has been developed by Harvard University, no warranty
+			expressed or implied is made by the University as to the accuracy of the data and
+			related materials. The act of distribution shall not constitute any such warranty, and
+			no responsibility is assumed by the University in the use of this data, or related
+			materials.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>GeoJSON</formname>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://hgl.harvard.edu/</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20230626</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Harvard Geospatial Library</cntorg>
+				</cntorgp>
+				<cntpos>Geospatial Metadata Librarian</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Harvard University Information Technology</address>
+					<address>Library Technology Services</address>
+					<address>90 Mount Auburn Street</address>
+					<city>Cambridge</city>
+					<state>MA</state>
+					<postal>02138</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>617-495-2417</cntvoice>
+				<cntfax>617-496-0440</cntfax>
+				<cntemail>hgladmin@fas.harvard.edu</cntemail>
+				<hours>Monday - Friday, 9:00 am - 4:00 pm EST-USA</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+</metadata>
