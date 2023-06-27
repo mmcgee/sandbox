@@ -6,7 +6,7 @@
 			<citeinfo>
 				<origin>O'Neill, Kelly</origin>
 				<pubdate>20230621</pubdate>
-				<title>Russian Empire Playing Cards: Geography of the Provinces (geojson)</title>
+				<title>Russian Empire Playing Cards: Geography of the Provinces (shapefile)</title>
 				<geoform>vector digital data</geoform>
 				<pubinfo>
 					<pubplace>Cambridge, Massachusetts</pubplace>
@@ -15,6 +15,14 @@
 				<onlink>https://hgl.harvard.edu/catalog/harvard-dvn-doi-10-70122-fk2-t9upgv-peoqc4</onlink>
 			</citeinfo>
 		</citation>
+		    <spdom>
+      <bounding>
+        <westbc>-180.000000</westbc>
+        <eastbc>180.000000</eastbc>
+        <northbc>89.999995</northbc>
+        <southbc>19.446569</southbc>
+      </bounding>
+    </spdom>
 		<descript>
 			<abstract>Geographic boundaries corresponding to the 77 Russian Empire province playing cards, 1857. Part of the Russian Empire geographic playing cards data, 1857. Geospatial data sets derived from a set of geographic data playing cards of the Russian Empire produced by Konstantin Matveevich Gribanov and published in 1857. The cards were digitized as part of the Meeting of Frontiers project by the Library of Congress and Russian National Library. The geospatial data files were produced as part of The Imperiia Project: A Spatial History of the Russian Empire by Kelly O'Neill, Harvard University. This data collection provides source card data in multiple digital formats (shapefile, GeoJSON, csv, and xslx) georeferenced to administrative boundaries sourced from the Geographical Atlas of the Russian Empire (GARE) including province and regional boundaries, rivers, and towns. For more information view the readme files provided with the collection data or visit The Imperiia Project project page: https://imperiia.scalar.fas.harvard.edu/imperiia/the-playing-cards</abstract>
 			<purpose>This dataset for use in GIS software.</purpose>
@@ -82,6 +90,93 @@
 			</horizpa>
 		</posacc>
 	</dataqual>
+	  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>77</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Equidistant Conic</mapprojn>
+          <equicon>
+            <stdparll>47.0</stdparll>
+            <stdparll>62.0</stdparll>
+            <longcm>37.5</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </equicon>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000045690340400028625</absres>
+            <ordres>0.0000000045690340400028625</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS84</horizdn>
+        <ellips>WGS84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GeoCards_geo_provinces</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cardID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>adm_eng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>cd_type</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>area_v</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>area_sqm</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>basin</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>clmt_txt</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>clm_indx</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
 	<distinfo>
 		<distrib>
 			<cntinfo>
@@ -113,7 +208,7 @@
 		<stdorder>
 			<digform>
 				<digtinfo>
-					<formname>GeoJSON</formname>
+					<formname>Shapefile</formname>
 				</digtinfo>
 				<digtopt>
 					<onlinopt>
