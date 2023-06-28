@@ -134,6 +134,8 @@
     <detailed>
       <enttyp>
         <enttypl>GeoCards_geo_provinces</enttypl>
+		<enttypd>Playing Cards: Geography of the provinces</enttypd>
+		<enttypds>The Imperiia Project</enttypds>
       </enttyp>
       <attr>
         <attrlabl>FID</attrlabl>
@@ -153,27 +155,68 @@
       </attr>
       <attr>
         <attrlabl>cardID</attrlabl>
+		<attrdef>playing card identification number</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
+		<attrdomv>
+			<udom>unique identifier for each card based on the numerals assigned to the original playing cards.</udom>
+		</attrdomv>
       </attr>
       <attr>
         <attrlabl>adm_eng</attrlabl>
+		<attrdef>province or region name, in English</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
+		<attrdomv>
+			<udom>simplified English names; standard English spellings used where available (such as "Lifland" instead of "Lifliand"); the word "province" (translation of guberniia and oblast') is omitted.</udom>
+		</attrdomv>
       </attr>
       <attr>
         <attrlabl>cd_type</attrlabl>
+		<attrdef>card type</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
+		<attrdomv>
+			<edom>
+				<edomv>province</edomv>
+				<edomvd>Province feature</edomvd>
+				<edomvds>The Imperiia Project</edomvds>
+			</edom>
+			<edom>
+				<edomv>region</edomv>
+				<edomvd>Region feature</edomvd>
+				<edomvds>The Imperiia Project</edomvds>
+			</edom>
+		</attrdomv>
       </attr>
       <attr>
         <attrlabl>area_v</attrlabl>
+		<attrdef>area of province in square versts. 1 square verst = 0.44 square miles</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
       </attr>
       <attr>
         <attrlabl>area_sqm</attrlabl>
+		<attrdef>area of province in square miles</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
       </attr>
       <attr>
         <attrlabl>basin</attrlabl>
+		<attrdef>drainage basin</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
+		<attrdomv>
+			<udom>Text</udom>
+		</attrdomv>
       </attr>
       <attr>
         <attrlabl>clmt_txt</attrlabl>
+		<attrdef>text note on climate - Climate is described with one or more adjectives.</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
+		<attrdomv>
+			<udom>Text</udom>
+		</attrdomv>
       </attr>
       <attr>
         <attrlabl>clm_indx</attrlabl>
+		<attrdef>climate index - A rough (and somewhat fun) index of how favorable the weather would seem to be in each province based on the positive/negative qualities of the adjectives used in the text note. It is a sum of the values assigned to each listed term. For values see "GeoCards_ref_index_climate." (https://demo.dataverse.org/file.xhtml?persistentId=doi:10.70122/FK2/NYWWNE/KLLQ4D&amp;version=1.0)
+		</attrdef>
+		<attrdefs>The Imperiia Project</attrdefs>
       </attr>
     </detailed>
   </eainfo>
