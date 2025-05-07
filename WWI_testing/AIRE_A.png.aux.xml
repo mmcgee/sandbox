@@ -1,0 +1,95 @@
+<PAMDataset>
+  <SRS>PROJCS[&quot;ED_1950_France_EuroLambert&quot;,GEOGCS[&quot;GCS_European_1950&quot;,DATUM[&quot;European_Datum_1950&quot;,SPHEROID[&quot;International_1924&quot;,6378388.0,297.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Lambert_Conformal_Conic_1SP&quot;],PARAMETER[&quot;False_Easting&quot;,600000.0],PARAMETER[&quot;False_Northing&quot;,2200000.0],PARAMETER[&quot;Central_Meridian&quot;,2.337229166666667],PARAMETER[&quot;Standard_Parallel_1&quot;,46.8],PARAMETER[&quot;Scale_Factor&quot;,0.99987742],PARAMETER[&quot;Latitude_Of_Origin&quot;,46.8],UNIT[&quot;Meter&quot;,1.0],AUTHORITY[&quot;EPSG&quot;,&quot;2192&quot;]]</SRS>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:CompositeXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/10.1">
+      <XF_0 xsi:type="typens:PolynomialXform">
+        <PolynomialOrder>1</PolynomialOrder>
+        <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+          <WKT>PROJCS[&quot;ED_1950_France_EuroLambert&quot;,GEOGCS[&quot;GCS_European_1950&quot;,DATUM[&quot;D_European_1950&quot;,SPHEROID[&quot;International_1924&quot;,6378388.0,297.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Lambert_Conformal_Conic&quot;],PARAMETER[&quot;False_Easting&quot;,600000.0],PARAMETER[&quot;False_Northing&quot;,2200000.0],PARAMETER[&quot;Central_Meridian&quot;,2.337229166666667],PARAMETER[&quot;Standard_Parallel_1&quot;,46.8],PARAMETER[&quot;Scale_Factor&quot;,0.99987742],PARAMETER[&quot;Latitude_Of_Origin&quot;,46.8],UNIT[&quot;Meter&quot;,1.0],AUTHORITY[&quot;EPSG&quot;,2192]]</WKT>
+          <XOrigin>-35694200</XOrigin>
+          <YOrigin>-28094500</YOrigin>
+          <XYScale>124085931.8395362</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>0.001</XYTolerance>
+          <ZTolerance>0.001</ZTolerance>
+          <MTolerance>0.001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+          <WKID>2192</WKID>
+          <LatestWKID>2192</LatestWKID>
+        </SpatialReference>
+        <SourceGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>2305.6380363848293</Double>
+          <Double>-5971.0617888171691</Double>
+          <Double>5773.4323246270069</Double>
+          <Double>-525.48623628914356</Double>
+          <Double>7511.1576120563896</Double>
+          <Double>-11698.236082038144</Double>
+          <Double>1251.436923219524</Double>
+          <Double>-846.25286432169378</Double>
+          <Double>601.70031265932266</Double>
+          <Double>-11052.374747200171</Double>
+        </SourceGCPs>
+        <TargetGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>603734.47704966215</Double>
+          <Double>2630721.4260786464</Double>
+          <Double>609691.8492131416</Double>
+          <Double>2639888.3924809233</Double>
+          <Double>612520.31930582831</Double>
+          <Double>2620962.1466758964</Double>
+          <Double>601991.83555774321</Double>
+          <Double>2639398.0201302101</Double>
+          <Double>600850.44324898452</Double>
+          <Double>2622126.4326258609</Double>
+        </TargetGCPs>
+        <Name />
+      </XF_0>
+      <XF_1 xsi:type="typens:PolynomialXform">
+        <PolynomialOrder>1</PolynomialOrder>
+        <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+          <WKT>PROJCS[&quot;ED_1950_France_EuroLambert&quot;,GEOGCS[&quot;GCS_European_1950&quot;,DATUM[&quot;D_European_1950&quot;,SPHEROID[&quot;International_1924&quot;,6378388.0,297.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Lambert_Conformal_Conic&quot;],PARAMETER[&quot;False_Easting&quot;,600000.0],PARAMETER[&quot;False_Northing&quot;,2200000.0],PARAMETER[&quot;Central_Meridian&quot;,2.337229166666667],PARAMETER[&quot;Standard_Parallel_1&quot;,46.8],PARAMETER[&quot;Scale_Factor&quot;,0.99987742],PARAMETER[&quot;Latitude_Of_Origin&quot;,46.8],UNIT[&quot;Meter&quot;,1.0],AUTHORITY[&quot;EPSG&quot;,2192]]</WKT>
+          <XOrigin>-35694200</XOrigin>
+          <YOrigin>-28094500</YOrigin>
+          <XYScale>124085931.8395362</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>0.001</XYTolerance>
+          <ZTolerance>0.001</ZTolerance>
+          <MTolerance>0.001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+          <WKID>2192</WKID>
+          <LatestWKID>2192</LatestWKID>
+        </SpatialReference>
+        <CoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>91.868061061366461</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </CoeffX>
+        <CoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>132.69831042271107</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </CoeffY>
+        <InverseCoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>-91.868061061366461</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </InverseCoeffX>
+        <InverseCoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>-132.69831042271107</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </InverseCoeffY>
+        <Name />
+      </XF_1>
+      <RequireDEM>false</RequireDEM>
+    </GeodataXform>
+  </Metadata>
+</PAMDataset>
